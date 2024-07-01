@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CALCULADORA DE IMC </title>
+
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+   
+    <!-- formulario -->
+    <div id="calculator"> 
+        <form id="formu">
+            <h1 id="titulo"> Calculadora - IMC</h1>
+    <!-- formulario -->
+
+    <!-- input das informações -->
+
+    <!-- input peso -->
+            <div class="input-box">
+                <label for="weight">
+                    Peso em KG
+                </label>
+                <div class="input-slot">
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <input type="number" id="weight" required>
+                    <span>
+                        Kg
+                    </span>
+                </div>
+            </div>
+    <!-- input peso -->
+
+    <!-- input altura -->
+                <div class="input-box">
+                    <label for="height">
+                        Altura em metros
+                    </label>
+                <div class="input-slot">
+                    <i class="fa-solid fa-ruler"></i>
+                    <input type="number" id="height" required>
+                    <span>
+                        m
+                    </span>
+                </div>
+            </div>
+    <!-- input altura -->
+
+    <!-- botão calcular -->
+            <button id="calcular">
+                Calcular
+            </button>
+    <!-- botão calcular -->
+        </form>
+
+        <!-- resultado do calculo -->
+        <div id="exibir">
+            <div id="resultado">
+                <div id="imc">
+                    <span id="valor"> </span>
+                    <span> Valor do seu IMC</span>
+                </div>
+                <div id="descricao">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- resultado do calculo -->
+    </div>
+    
+</body>
+</html>

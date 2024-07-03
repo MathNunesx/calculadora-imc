@@ -14,14 +14,26 @@ body{
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background-color: #231C36;
+    background-color: #18171a;
 }
 
 #calculator{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: rem;
     padding: 3rem;
-    color: #05EB5B;
-    background-color: #1B1233;
+    color: #ffffff;
+    background-color: #32424B;
+    border-radius: 35px;
+}
+
+#formu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#titulo{
+    color: #51ee73;
+    font-weight: 500;
 }

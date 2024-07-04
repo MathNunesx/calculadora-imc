@@ -30,11 +30,35 @@ body{
 #formu{
     display: flex;
     flex-direction: column;
-    gap: 5rem;
-    padding: 30px;
+    gap: 4rem;
+    padding: 20px;
 }
 
 #titulo{
-    color: #51ee73;
-    font-weight: 500;
+    font-size: 2.25rem;
+    color: #ffffff;
+    font-weight: 550;
+    position: relative;
+}
+
+#titulo::after{
+    position: absolute;
+    content: '';
+    background-color: #7351ee;
+    width: 18rem;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+}
+
+.input-box label {
+    font-size: 1.1rem;
+    color: #ecdfdf;
+    font-weight: 420;
+}
+
+.input-slot{
+   
+
 }

@@ -59,6 +59,26 @@ body{
 }
 
 .input-slot{
-   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131516;
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-top: 3px;
+}
 
+.input-slot span,
+.input-slot i {
+    color: #7351ee;
+    font-size: 1.3rem;
+    padding: 0.6rem 1rem;
+}
+
+.input-slot input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 1.3rem;
+    
 }

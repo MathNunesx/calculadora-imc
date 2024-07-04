@@ -14,7 +14,7 @@ body{
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background-color: #18171a;
+    background-color: #262926;
 }
 
 #calculator{
@@ -23,14 +23,15 @@ body{
     gap: rem;
     padding: 3rem;
     color: #ffffff;
-    background-color: #32424B;
+    background-color: #131516;
     border-radius: 35px;
 }
 
 #formu{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 5rem;
+    padding: 30px;
 }
 
 #titulo{

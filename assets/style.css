@@ -46,7 +46,7 @@ body{
     content: '';
     background-color: #7351ee;
     width: 18rem;
-    height: 1.5px;
+    height: 1px;
     bottom: 0;
     left: 0;
     border-radius: 5px;
@@ -62,9 +62,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #131516;
+    background-color: #262926;
     padding: 0.3rem;
-    border-radius: 3px;
+    border-radius: 15px;
     margin-top: 3px;
 }
 
@@ -79,6 +79,18 @@ body{
     background-color: transparent;
     border: none;
     width: 100%;
-    font-size: 1.3rem;
-    
+    font-size: 1.2rem;
+    color: #ffffff;
 }
+
+.input-slot input::-webkit-outer-spin-button,
+.input-slot input::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+.input-slot input:focus{
+    outline: none;
+}
+
+
+

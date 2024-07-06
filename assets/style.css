@@ -30,7 +30,7 @@ body{
 #formu{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 3rem;
     padding: 20px;
 }
 
@@ -64,7 +64,7 @@ body{
     justify-content: space-between;
     background-color: #262926;
     padding: 0.3rem;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-top: 3px;
 }
 
@@ -92,5 +92,14 @@ body{
     outline: none;
 }
 
-
+#calcular{
+    border: none;
+    font-size: 1.20rem;
+    font-weight: bold;
+    background-color: #262926;
+    color: #7351ee;
+    padding: 0.6rem 0rem;
+    border-radius:10px;
+    cursor: pointer;
+}
 

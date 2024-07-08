@@ -103,3 +103,40 @@ body{
     cursor: pointer;
 }
 
+#calcular:hover{
+    background-color: #7351ee;
+    color: #ecdfdf;
+    transition: 0.5s;
+}
+
+#exibir{
+    padding-top: 20px;
+}
+
+#resultado{
+    display: flex;
+    gap: 2rem;
+align-items: center;
+border-top: 1px solid #262926;
+padding: 0.75rem 0;
+}
+
+#imc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.50rem;
+}
+
+#imc span:last-child{
+    font-size: 1rem;
+    color: #7351ee;
+}
+
+#descricao{
+    width: 15rem;
+}
+
+
+
+

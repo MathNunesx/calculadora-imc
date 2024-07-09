@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
-
+/* VARIAVÉL GLOBAL */
 * {
     font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* VARIAVÉL GLOBAL */
 
+/* ESTILO BODY */
 body {
     display: flex;
     align-items: center;
@@ -16,7 +18,9 @@ body {
     height: 100vh;
     background-color: #262926;
 }
+/* ESTILO BODY */
 
+/* ESTILO CALCULADORA */
 #calculator {
     display: flex;
     flex-direction: column;
@@ -26,14 +30,18 @@ body {
     background-color: #131516;
     border-radius: 35px;
 }
+/* ESTILO CALCULADORA */
 
+/* ESTILO DO FORMULARIO */
 #formu {
     display: flex;
     flex-direction: column;
     gap: 3rem;
     padding: 20px;
 }
+/* ESTILO DO FORMULARIO */
 
+/* ESTILO DO TITULO */
 #titulo {
     font-size: 2.25rem;
     color: #ffffff;
@@ -51,13 +59,18 @@ body {
     left: 0;
     border-radius: 5px;
 }
+/* ESTILO DO TITULO */
 
+/* ESTILOS DOS INPUTS */
+    /* ESTILO DA CAIXA DE INPUT */
 .input-box label {
     font-size: 1.1rem;
     color: #ecdfdf;
     font-weight: 420;
 }
+    /* ESTILO DA CAIXA DE INPUT */
 
+    /* ESTILO DO INTERIOR DO INPUT */
 .input-slot {
     display: flex;
     align-items: center;
@@ -91,7 +104,10 @@ body {
 .input-slot input:focus {
     outline: none;
 }
+    /* ESTILO DO INTERIOR DO INPUT */
+/* ESTILOS DOS INPUTS */
 
+/* ESTILO BOTÃO DE CALCULAR */
 #calcular {
     border: none;
     font-size: 1.20rem;
@@ -108,7 +124,9 @@ body {
     color: #ecdfdf;
     transition: 0.5s;
 }
+/* ESTILO BOTÃO DE CALCULAR */
 
+/* ESTILO DA EXIBIÇÃO DAS INFORMAÇÕES */
 #exibir {
     padding-top: 20px;
 }
@@ -120,7 +138,9 @@ body {
     border-top: 1px solid #262926;
     padding: 0.75rem 0;
 }
+/* ESTILO DA EXIBIÇÃO DAS INFORMAÇÕES */
 
+/* ESTILO DO IMC */
 #imc {
     display: flex;
     align-items: center;
@@ -148,7 +168,9 @@ body {
 .warning{
     color: #ee5151;
 }
+/* ESTILO DO IMC */
 
+/* RESPONSIVO */
 @media screen and (max-width: 500px){
     #calculator{
         width: 100%;

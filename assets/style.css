@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,7 @@ body{
     background-color: #262926;
 }
 
-#calculator{
+#calculator {
     display: flex;
     flex-direction: column;
     gap: rem;
@@ -27,21 +27,21 @@ body{
     border-radius: 35px;
 }
 
-#formu{
+#formu {
     display: flex;
     flex-direction: column;
     gap: 3rem;
     padding: 20px;
 }
 
-#titulo{
+#titulo {
     font-size: 2.25rem;
     color: #ffffff;
     font-weight: 550;
     position: relative;
 }
 
-#titulo::after{
+#titulo::after {
     position: absolute;
     content: '';
     background-color: #7351ee;
@@ -58,7 +58,7 @@ body{
     font-weight: 420;
 }
 
-.input-slot{
+.input-slot {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,7 +75,7 @@ body{
     padding: 0.6rem 1rem;
 }
 
-.input-slot input{
+.input-slot input {
     background-color: transparent;
     border: none;
     width: 100%;
@@ -84,63 +84,67 @@ body{
 }
 
 .input-slot input::-webkit-outer-spin-button,
-.input-slot input::-webkit-inner-spin-button{
+.input-slot input::-webkit-inner-spin-button {
     appearance: none;
 }
 
-.input-slot input:focus{
+.input-slot input:focus {
     outline: none;
 }
 
-#calcular{
+#calcular {
     border: none;
     font-size: 1.20rem;
     font-weight: bold;
     background-color: #262926;
     color: #7351ee;
     padding: 0.6rem 0rem;
-    border-radius:10px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
-#calcular:hover{
+#calcular:hover {
     background-color: #7351ee;
     color: #ecdfdf;
     transition: 0.5s;
 }
 
-#exibir{
+#exibir {
     padding-top: 20px;
 }
 
-#resultado{
+#resultado {
     display: flex;
     gap: 2rem;
-align-items: center;
-border-top: 1px solid #262926;
-padding: 0.75rem 0;
+    align-items: center;
+    border-top: 1px solid #262926;
+    padding: 0.75rem 0;
 }
 
-#imc{
+#imc {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 1.50rem;
+    font-size: 1.75rem;
 }
 
-#imc span:last-child{
+#imc span:last-child {
     font-size: 1rem;
     color: #7351ee;
 }
 
-#descricao{
+#descricao {
     width: 15rem;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
+.ideal {
+    color: #51ee59;
+}
 
-
-
+.warning{
+    color: #ee5151;
+}
